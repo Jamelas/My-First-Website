@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+	  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Slab&display=swap" rel="stylesheet">     
+    <script src="js/gallery.js"></script>    
+	  <title>Kiwi in Tokyo</title>
+  </head>
+
+  <body>
+ 
+ 	  <nav>
+	    <ul>
+	      <li><a href="index.html"> Home </a></li>
+	      <li><a href="tokyo.html"> Tokyo </a></li>
+	      <li><a href="kyoto.html"> Kyoto </a></li>
+		    <li><a href="osaka.html"> Osaka </a></li>
+	    </ul>
+	  </nav>
+      
+    <div id="topsection">
+      <header>  
+        <img src="img/tokyo/akihabara.jpg" alt="Gaming arcades in Akihabara, Tokyo" />
+        <h1>Kiwi in Tokyo</h1>  
+      </header>
+    </div>
+    
+    
+    <hr />
+    <main>
+      <h2> About Tokyo </h2>
+      <p> <a href="https://www.japan-guide.com/e/e2164.html" target="_blank">Tokyo</a> (東京, Tōkyō) is Japan's capital and
+      the world's most populous metropolis. It is also one of Japan's 47 prefectures, consisting of 23 central city wards 
+      and multiple cities, towns and villages west of the city center. The Izu and Ogasawara Islands are also part of Tokyo. </p>
+
+      <p>Prior to 1868, Tokyo was known as Edo. A small castle town in the 16th century, Edo became Japan's political center
+         in 1603 when Tokugawa Ieyasu established his feudal government there. A few decades later, Edo had grown into one 
+         of the world's most populous cities. With the Meiji Restoration of 1868, the emperor and capital moved from Kyoto 
+         to Edo, which was renamed Tokyo ("Eastern Capital"). Large parts of Tokyo were destroyed in the Great Kanto 
+         Earthquake of 1923 and in the air raids of 1945.</p>
+
+      <p>Today, Tokyo offers a seemingly unlimited choice of shopping, entertainment, culture and dining to its visitors. 
+         The city's history can be appreciated in districts such as Asakusa and in many excellent museums, historic temples 
+         and gardens. Contrary to common perception, Tokyo also offers a number of attractive green spaces in the city 
+         center and within relatively short train rides at its outskirts.</p>
+    </main>
+    <hr />
+    
+    
+    <!-- Photo Gallery starts -->
+    <h3>Photo Gallery</h3>
+    
+    <!-- Container for the image gallery -->
+    <div class="gallery">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img class="mainImage" src="img/tokyo/akihabara.jpg" alt="Gaming arcades in Akihabara, Tokyo">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img class="mainImage" src="img/tokyo/sashimi.jpg" alt="Sashimi at a restuarant in Shibuya, Tokyo">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img class="mainImage" src="img/tokyo/meiji_jingu_gyoen.jpg" alt="View from inside the Meiji Jingu Gyoen, Tokyo">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img class="mainImage" src="img/tokyo/cookie_time.jpg" alt="Cookie Time in Shibuya, Tokyo">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="img/tokyo/akihabara.jpg" style="width:100%" onclick="currentSlide(1)" alt="Gaming arcades in Akihabara, Tokyo">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/tokyo/sashimi.jpg" style="width:100%" onclick="currentSlide(2)" alt="Sashimi at a restuarant in Shibuya, Tokyo">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/tokyo/meiji_jingu_gyoen.jpg" style="width:100%" onclick="currentSlide(3)" alt="View from inside the Meiji Jingu Gyoen, Tokyo">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/tokyo/cookie_time.jpg" style="width:100%" onclick="currentSlide(4)" alt="Cookie Time in Shibuya, Tokyo">
+        </div>
+      </div>
+    </div> 
+    <!-- Photo Gallery ends -->
+   
+   
+    <footer>
+      <div id="footer-container">
+        <div id="footer-left"> <a href="about.html"> About </a> </div>
+        <div id="footer-center"> Copyright &copy; 2022 Kiwi in Japan | All Rights Reserved </div>
+        <div id="footer-right">  Kiwi in Japan </div>
+      </div>
+    </footer>
+    
+    
+  </body>
+</html>
+   

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+	  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/gallery.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Slab&display=swap" rel="stylesheet">   
+    <script src="js/gallery.js"></script>
+	  <title>Kiwi in Kyoto</title>
+  </head>
+
+  <body>
+ 
+ 	  <nav>
+	    <ul>
+	      <li><a href="index.html"> Home </a></li>
+		    <li><a href="tokyo.html"> Tokyo </a></li>
+		    <li><a href="kyoto.html"> Kyoto </a></li>
+		    <li><a href="osaka.html"> Osaka </a></li>
+	    </ul>
+	  </nav>
+      
+    <div id="topsection">
+      <header>  
+        <img src="img/kyoto/kinkaku-ji.jpg" alt="Kinkaku-ji" />
+        <h1>Kiwi in Kyoto</h1>  
+      </header>
+    </div>
+    
+    
+    <hr />
+    <main>
+      <h2> About Kyoto </h2>
+      <p> <a href="https://www.japan-guide.com/e/e2158.html" target="_blank">Kyoto</a> (京都, Kyōto) served as Japan's 
+      capital and the emperor's residence from 794 until 1868. It is one of the country's ten largest cities with a 
+      population of 1.5 million people and a modern face. </p>
+
+      <p>Over the centuries, Kyoto was destroyed by many wars and fires, but due to its exceptional historic value, the 
+      city was dropped from the list of target cities for the atomic bomb and escaped destruction during World War 
+      II. Countless temples, shrines and other historically priceless structures survive in the city today. </p>
+    </main>
+    <hr />
+    
+    
+    <!-- Photo Gallery starts -->
+    <h3>Photo Gallery</h3>
+    
+    <!-- Container for the image gallery -->
+    <div class="gallery">
+
+      <!-- Full-width images with number text -->
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img class="mainImage" src="img/kyoto/kinkaku-ji.jpg" alt="Kinkaku-ji, Kyoto">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img class="mainImage" src="img/kyoto/fushimi_inari_taisha.jpg" alt="Torii gates at Fushimi Inari Taisha, Kyoto">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img class="mainImage" src="img/kyoto/kyoto_gyoen.jpg" alt="Building and garden outside the Kyoto Imperial Palace, Kyoto">
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img class="mainImage" src="img/kyoto/mt-inari.jpg" alt="View from the top of Mt.Inari, Kyoto">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="img/kyoto/kinkaku-ji.jpg" style="width:100%" onclick="currentSlide(1)" alt="Kinkaku-ji, Kyoto">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/kyoto/fushimi_inari_taisha.jpg" style="width:100%" onclick="currentSlide(2)" alt="Torii gates at Fushimi Inari Taisha, Kyoto">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/kyoto/kyoto_gyoen.jpg" style="width:100%" onclick="currentSlide(3)" alt="Building and garden outside the Kyoto Imperial Palace, Kyoto">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="img/kyoto/mt-inari.jpg" style="width:100%" onclick="currentSlide(4)" alt="View from the top of Mt.Inari, Kyoto">
+        </div>
+      </div>
+    </div> 
+    <!-- Photo Gallery ends -->
+   
+   
+    <footer>
+      <div id="footer-container">
+        <div id="footer-left"> <a href="about.html"> About </a> </div>
+        <div id="footer-center"> Copyright &copy; 2022 Kiwi in Japan | All Rights Reserved </div>
+        <div id="footer-right">  Kiwi in Japan </div>
+      </div>
+    </footer>
+    
+    
+  </body>
+</html>
+   
